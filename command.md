@@ -8,7 +8,7 @@ yt-dlp -x --audio-format opus --audio-quality 0 ^
 --parse-metadata "playlist_index:%(track_number)s" ^
 --ppa "ThumbnailsConvertor+ffmpeg_o:-c:v png -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(iw,ih),ih,iw)'\"" ^
 -P "D:\Music" ^
--o "%(playlist_title)U - [%(playlist_id)s]/%(track_number,playlist_index)03d - %(title)U.%(ext)s" ^
+-o "%(playlist_title)U - [%(playlist_id)s]/%(title)U.%(ext)s" ^
 --download-archive "D:\yt-dlp-config\playlist_archive.txt" ^
 "https://music.youtube.com/playlist?list=PLCNYGVveinBPrY0ZS2Hi59W1x39uAH2Y8"
 ```
