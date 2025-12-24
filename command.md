@@ -39,8 +39,8 @@ D:\yt-dlp-config>dir
 D:\yt-dlp-config>
 ```
 
-* get deno from [here](https://deno.land/)
-* ffmpeg should be the "git-full" version from [here](https://www.gyan.dev/ffmpeg/builds/)
-* yt-dlp should be the nighly version from [here](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases).
+* get deno (`deno-x86_64-pc-windows-msvc.zip`) from [here](https://github.com/denoland/deno/releases)
+* yt-dlp should be the nighly version from [here](https://github.com/yt-dlp/yt-dlp-nightly-builds/releases)
+* ffmpeg should be the "git-full" version from [here](https://www.gyan.dev/ffmpeg/builds/), then copy the files from the /bin/ directory to the same folder as the deno.exe and yt-dlp.exe 
 
 It's recomended to add the folder to the path to run the command more comfortably, in this example it's `D:\yt-dlp-config`.
