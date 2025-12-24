@@ -3,6 +3,11 @@ import re
 import argparse
 import shutil
 
+# THIS FILE DOESN'T REALLY SERVE A PURPOSE SINCE I 
+# UPDATED THE ORIGINAL COMMAND AND NOW THE FILES DON'T 
+# GENERATE WITH THE IDS EMBEDDED ON THE FILENAME, 
+# THEREFORE THIS FILE CAN BE IGNORED.
+
 def clean_filenames(input_dir, output_dir):
     """
     Parses filenames in input_dir, removes numeric prefixes, and saves them to output_dir.

@@ -1,4 +1,6 @@
-Run this command on cmd:
+# Command to run
+
+Run this command on CMD (NOT on powershell, since the carac (^) won't work):
 
 ```cmd
 yt-dlp -x --audio-format opus --audio-quality 0 ^
@@ -13,9 +15,15 @@ yt-dlp -x --audio-format opus --audio-quality 0 ^
 "https://music.youtube.com/playlist?list=PLCNYGVveinBPrY0ZS2Hi59W1x39uAH2Y8"
 ```
 
-Make sure the change the playlist URL (`"https://music.youtube.com/playlist?list=PLCNYGVveinBPrY0ZS2Hi59W1x39uAH2Y8"`), the output path (`-P "D:\Music"`)and the archive path (`--download-archive "D:\yt-dlp-config\playlist_archive.txt"`).
+Make sure the change:
+
+* the playlist URL (`"https://music.youtube.com/playlist?list=PLCNYGVveinBPrY0ZS2Hi59W1x39uAH2Y8"`)
+* the output path (`-P "D:\Music"`)
+* the archive path (`--download-archive "D:\yt-dlp-config\playlist_archive.txt"`)
 
 The archive path simply stores the already downloaded videos, so you don't have to download them again.
+
+## File system
 
 The files to be run should be:
 
@@ -44,3 +52,7 @@ D:\yt-dlp-config>
 * ffmpeg should be the "git-full" version from [here](https://www.gyan.dev/ffmpeg/builds/), then copy the files from the /bin/ directory to the same folder as the deno.exe and yt-dlp.exe 
 
 It's recomended to add the folder to the path to run the command more comfortably, in this example it's `D:\yt-dlp-config`.
+
+## Notes
+
+On the `clean_filenames.py` file, there's a note that explains that it's not used anymore since I updated the original command and now the files don't generate with the ids embedded on the filename, therefore this file can be ignored.
