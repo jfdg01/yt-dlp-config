@@ -13,7 +13,7 @@ yt-dlp -x --audio-format opus --audio-quality 0 ^
 "https://music.youtube.com/playlist?list=PLCNYGVveinBPrY0ZS2Hi59W1x39uAH2Y8"
 ```
 
-Make sure the change the playlist URL (`"https://music.youtube.com/playlist?list=PLCNYGVveinBPrY0ZS2Hi59W1x39uAH2Y8"`), the output path (`-P "D:\Music"`)and the archive path (`--download-archive "D:\yt-dlp-config\playlist_archive.txt"`).--download-archive "D:\yt-dlp-config\playlist_archive.txt"
+Make sure the change the playlist URL (`"https://music.youtube.com/playlist?list=PLCNYGVveinBPrY0ZS2Hi59W1x39uAH2Y8"`), the output path (`-P "D:\Music"`)and the archive path (`--download-archive "D:\yt-dlp-config\playlist_archive.txt"`).
 
 The archive path simply stores the already downloaded videos, so you don't have to download them again.
 
